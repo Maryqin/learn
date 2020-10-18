@@ -1,8 +1,6 @@
 import pytest
 import yaml
 
-from pythoncode.claculator import Calculator
-
 
 # 获取数据
 def get_dates():
