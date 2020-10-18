@@ -39,7 +39,7 @@ class TestCalc:
         assert round(result, 2) == expect
 
     @pytest.mark.parametrize('a, b, expect', get_dates()[3])
-    def test_div(self, get_calc,a, b, expect):
+    def test_div(self, get_calc, a, b, expect):
         # 调用Calculator的类方法div()
         try:
             result = get_calc.div(a, b)
