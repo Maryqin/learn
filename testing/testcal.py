@@ -34,7 +34,7 @@ class TestCalc:
     def test_mul(self, a, b, expect):
         # 调用Calculator的类方法mul()
         result = self.calc.mul(a, b)
-        assert result == expect
+        assert round(result, 2) == expect
 
     @pytest.mark.parametrize('a, b, expect', yaml.safe_load(open('div.yaml')))
     def test_div(self, a, b, expect):
