@@ -3,7 +3,7 @@ import pytest
 from pythoncode.claculator import Calculator
 
 
-@pytest.fixture(scope='class')
+@pytest.fixture(scope='module')
 def get_calc():
     print('开始计算！')
     calc = Calculator()
