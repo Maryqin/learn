@@ -17,6 +17,7 @@ class TestCalc:
 
     @pytest.mark.parametrize('a, b, expect', get_dates()[0],
                              ids=['int0_case', 'int1_case', 'float0_case', 'float1_case', 'bing_case'])
+    @pytest.mark.run(order=1)
     def test_add(self, get_calc, a, b, expect):
         # 调用Calculator的类方法add()
         result = get_calc.add(a, b)
@@ -25,18 +26,21 @@ class TestCalc:
     @pytest.mark.parametrize('a, b, expect',
                              get_dates()[1],
                              ids=['int0_case', 'int1_case', 'float0_case', 'float1_case', 'bing_case'])
+    @pytest.mark.run(order=2)
     def test_sub(self, get_calc, a, b, expect):
         # 调用Calculator的类方法sub()
         result = get_calc.sub(a, b)
         assert round(result, 2) == expect
 
     @pytest.mark.parametrize('a, b, expect', get_dates()[2])
+    @pytest.mark.run(order=3)
     def test_mul(self, get_calc, a, b, expect):
         # 调用Calculator的类方法mul()
         result = get_calc.mul(a, b)
         assert round(result, 2) == expect
 
     @pytest.mark.parametrize('a, b, expect', get_dates()[3])
+    @pytest.mark.run(order=-1)
     def test_div(self, get_calc, a, b, expect):
         # 调用Calculator的类方法div()
         try:
