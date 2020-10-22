@@ -11,7 +11,7 @@ class TestCalc:
         # 实例化Calculator
         self.calc = Calculator()
 
-    def teardowm_class(self):
+    def teardown_class(self):
         print('计算结束！')
 
     @pytest.mark.parametrize('a, b, expect',
