@@ -1,0 +1,13 @@
+datas:
+  filexlsx:
+    - 'C:\Users\qinml\Desktop\upload\linkman.xlsx'
+    - 'linkman.xlsx'
+  filertf:
+    - 'C:\Users\qinml\Desktop\upload\linkman.rtf'
+    - 'linkman.rtf'
+  fileaxlsx:
+    - 'C:\Users\qinml\Desktop\upload\linkman.xlsx'
+    - 'linkman.xlsx'
+  filexls:
+    - 'C:\Users\qinml\Desktop\upload\linkman.xls'
+    - 'linkman.xls'
