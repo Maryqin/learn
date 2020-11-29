@@ -1,0 +1,12 @@
+desire_caps:
+  platformName: 'android'
+  platformVersion: '6.0'
+  deviceName: '127.0.0.1:5555'
+  appPackage: 'com.tencent.wework'
+  appActivity: '.launch.LaunchSplashActivity'
+  noReset: 'true'
+  unicodeheyBoard: 'true'
+  reseKeyBoard: 'true'
+sever:
+  ip: "localhost"
+  port: "4723"
