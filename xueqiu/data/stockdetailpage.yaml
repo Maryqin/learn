@@ -1,0 +1,27 @@
+detail_rs:
+  - by: xpath
+    locator: //*[@text="升级看十档>>"]
+    action: click
+
+detail_k:
+  - by: xpath
+    locator: //*[@text="五日"]
+    action: click
+  - by: xpath
+    locator: //*[@text="日K"]
+    action: click
+  - by: xpath
+    locator: //*[@text="周K"]
+    action: click
+  - by: xpath
+    locator: //*[@text="周K"]
+    action: click
+  - by: xpath
+    locator: //*[@text="季K"]
+    action: click
+  - by: xpath
+    locator: //*[@text="年K"]
+    action: click
+  - by: xpath
+    locator: //*[@text="分时"]
+    action: click

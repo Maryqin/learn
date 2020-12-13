@@ -1,0 +1,9 @@
+desire_caps:
+  platformName: 'android'
+  platformVersion: '6.0'
+  deviceName: '127.0.0.1:5555'
+  appPackage: 'com.xueqiu.android'
+  appActivity: '.view.WelcomeActivityAlias'
+  noReset: 'true'
+  unicodeheyBoard: 'true'
+  reseKeyBoard: 'true'

@@ -1,0 +1,4 @@
+goto_stockdetail:
+  - by: xpath
+    locator: //*[@text="1"]
+    action: click
